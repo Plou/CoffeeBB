@@ -1,0 +1,176 @@
+/* Work better for evenly distribued columns. */
+/* line 6, src/columns.scss */
+.columns.topBorder { border-top: 1px solid #444444; }
+/* line 7, src/columns.scss */
+.columns.bottomBorder { border-bottom: 1px solid #444444; }
+/* line 8, src/columns.scss */
+.columns.leftBorder { border-left: 1px solid #444444; }
+/* line 9, src/columns.scss */
+.columns.rightBorder { border-right: 1px solid #444444; }
+/* line 10, src/columns.scss */
+.columns.sliceWithMargin { margin: 15px 0; }
+
+/* line 14, src/columns.scss */
+.column { display: inline; zoom: 1; vertical-align: top; }
+/* line 16, src/columns.scss */
+.column > .columnContent { padding-left: 0; padding-right: 0; background-repeat: no-repeat; }
+/* line 17, src/columns.scss */
+.column:first-child > .columnContent { padding-left: 0 !important; }
+/* line 18, src/columns.scss */
+.column:last-child > .columnContent { padding-right: 0 !important; }
+/* line 26, src/columns.scss */
+.separationBorder > .column + .column > .columnContent { border-left: 1px solid #444444; }
+/* line 28, src/columns.scss */
+.column.columnWithPadding > .columnContent { padding-left: 15px; padding-right: 15px; }
+/* line 36, src/columns.scss */
+.separationBorder > .column.columnWithPadding > .columnContent { padding-left: 30px; padding-right: 30px; }
+
+/* line 38, src/columns.scss */
+.column-90 { width: 90%; }
+
+/* line 39, src/columns.scss */
+.column-80 { width: 80%; }
+
+/* line 40, src/columns.scss */
+.column-75 { width: 75%; }
+
+/* line 41, src/columns.scss */
+.column-70 { width: 70%; }
+
+/* line 42, src/columns.scss */
+.column-66 { width: 66.6666666666667%; }
+
+/* line 43, src/columns.scss */
+.column-60 { width: 60%; }
+
+/* line 44, src/columns.scss */
+.column-50 { width: 50%; }
+
+/* line 45, src/columns.scss */
+.column-40 { width: 40%; }
+
+/* line 46, src/columns.scss */
+.column-33 { width: 33.3333333333333%; }
+
+/* line 47, src/columns.scss */
+.column-30 { width: 30%; }
+
+/* line 48, src/columns.scss */
+.column-25 { width: 25%; }
+
+/* line 49, src/columns.scss */
+.column-20 { width: 20%; }
+
+/* line 50, src/columns.scss */
+.column-10 { width: 10%; }
+
+/* line 6, src/layout.scss */
+html { font-size: 62.5%; line-height: 1.3em; }
+
+/* line 7, src/layout.scss */
+body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 1em; color: #333333; font-weight: 300; }
+
+/* line 10, src/layout.scss */
+a { text-decoration: none; color: #bc2422; }
+/* line 11, src/layout.scss */
+a img { border: 0; }
+/* line 12, src/layout.scss */
+a:hover { text-decoration: underline; }
+
+/* line 16, src/layout.scss */
+h1, .h1-like { margin: 25px 0; }
+
+/* line 17, src/layout.scss */
+h2, .h2-like { margin: 25px 0; }
+
+/* line 18, src/layout.scss */
+h3, .h3-like { margin: 25px 0; }
+
+/* line 19, src/layout.scss */
+h4, .h4-like { margin: 20px 0; }
+
+/* line 20, src/layout.scss */
+h5, .h5-like { margin: 20px 0; }
+
+/* line 21, src/layout.scss */
+.introduction { margin: 30px 0; }
+
+/* line 22, src/layout.scss */
+p, p.bodytext, h6, .h6-like { margin: 25px 0; }
+
+/* line 23, src/layout.scss */
+td p, td p.bodytext { margin: 0; }
+
+/* line 24, src/layout.scss */
+ul { margin: 30px 0; }
+/* line 25, src/layout.scss */
+ul li { margin: 5px 0; }
+
+/* line 29, src/layout.scss */
+p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea { font-size: 1.4em; line-height: 1.7em; }
+
+/* line 30, src/layout.scss */
+li li, li p, td p, th p, li h1, li .h1-like, li h2, li .h2-like, li h3, li .h3-like, li h4, li .h4-like, li h5, li .h5-like, li h6, li .h6-like, button { font-size: 100%; }
+
+/* line 31, src/layout.scss */
+input, select, textarea { font-family: Arial, sans-serif; }
+
+/* line 32, src/layout.scss */
+h1, .h1-like, h2, .h2-like, h3, .h3-like, h4, .h4-like, h5, .h5-like { line-height: 1em; }
+
+/* line 33, src/layout.scss */
+h1, .h1-like { font-size: 3.5em; }
+
+/* line 34, src/layout.scss */
+h2, .h2-like, .important { font-size: 2.4em; }
+
+/* line 35, src/layout.scss */
+h3, .h3-like { font-size: 1.9em; }
+
+/* line 36, src/layout.scss */
+h4, .h4-like, .introduction { font-size: 1.7em; }
+
+/* line 37, src/layout.scss */
+h5, .h5-like { font-size: 1.6em; }
+
+/* line 38, src/layout.scss */
+h6, .h6-like { font-size: 1.4em; }
+
+/* line 41, src/layout.scss */
+hr { margin: 40px auto; border: none; height: 1px; background-color: #444444; }
+
+/* line 42, src/layout.scss */
+hr.clear { clear: both; height: 0px; }
+
+/* line 45, src/layout.scss */
+body { color: #444444; }
+
+/* line 4, src/modules.scss */
+.page { margin: 0 auto; width: 990px; }
+@media screen and (min-width: 0px) { /* line 4, src/modules.scss */
+  .page { width: 1200px; max-width: 100%; } }
+@media screen and (max-width: 1240px) { /* line 4, src/modules.scss */
+  .page { width: auto; margin-left: 20px; margin-right: 20px; } }
+
+/* line 7, src/modules.scss */
+.align-left { text-align: left; }
+
+/* line 8, src/modules.scss */
+.align-center { text-align: center; }
+
+/* line 9, src/modules.scss */
+.align-right { text-align: right; }
+
+/* line 10, src/modules.scss */
+.align-justify { text-align: justify; }
+
+/* line 13, src/modules.scss */
+.nav { display: block; margin: 0; padding: 0; }
+/* line 18, src/ie.scss */
+.nav li { display: inline; zoom: 1; margin: 5px; padding: 0; }
+/* line 21, src/ie.scss */
+.nav li:hover .second { display: block; }
+/* line 24, src/ie.scss */
+.nav .second { position: absolute; display: none; }
+
+/*# sourceMappingURL=ie.css.map */

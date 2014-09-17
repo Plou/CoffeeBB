@@ -1,0 +1,19 @@
+{
+  "name": "CoffeeBB",
+  "version": "0.0.0",
+  "description": "",
+  "devDependencies": {
+    "backbone": "^1.1.2",
+    "glob": "*",
+    "grunt": "*",
+    "grunt-browser-sync": "*",
+    "grunt-coffeeify": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-newer": "*",
+    "grunt-notify": "*",
+    "load-grunt-tasks": "*",
+    "time-grunt": "*",
+    "underscore": "^1.7.0"
+  }
+}

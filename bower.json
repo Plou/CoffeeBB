@@ -1,0 +1,20 @@
+{
+  "name": "CoffeeBB",
+  "version": "0",
+  "homepage": "https://www.inouit.fr",
+  "authors": [
+    "plou <cl.plou@gmail.com>"
+  ],
+  "description": "An ultralight backbone coffeescript boilerplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tasks",
+    "gruntfile.coffee",
+    "src"
+  ],
+  "devDependencies": {
+    "jquery": "^1"
+  }
+}
